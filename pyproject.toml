@@ -1,15 +1,18 @@
 [project]
-name = "les-portageurs-web-scraping"
+name = "scheduler"
 version = "0.1.0"
-description = "Add your description here"
+description = "Scheduler for web scraping tasks"
 requires-python = ">=3.14"
 dependencies = [
     "apscheduler>=3.11.3",
     "pandas==3.0.0rc1",
     "requests==2.32.5",
-    "setuptools==80.9.0",
+    "setuptools>=80.9.0",
     "yagmail==0.15.293",
-    "apscheduler>=3.11.3",
+    "selenium>=4.0.0",
+    "webdriver-manager>=4.0.0",
+    "undetected-chromedriver>=3.5.0",
+    "python-dotenv>=1.0.0",
 ]
 [build-system]
 requires = ["hatchling"]
