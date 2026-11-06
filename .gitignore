@@ -1,0 +1,13 @@
+.idea
+uv.lock
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+env/
+
+# SQLite databases
+lesportageurs.db
